@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\i830664\\OneDrive - SAP SE\\Desktop\\Fiap\\6_Cubernets\\FIAP.IFOOD.PEDIDO.MICROSERVICO\\FIAP.IFOOD.PEDIDOS.REPOSITORY\\FIAP.IFOOD.PEDIDOS.REPOSITORY.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\i830664\\OneDrive - SAP SE\\Desktop\\Fiap\\6_Cubernets\\FIAP.IFOOD.PEDIDO.MICROSERVICO\\FIAP.IFOOD.PEDIDOS.DOMAIN\\FIAP.IFOOD.PEDIDOS.DOMAIN.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\i830664\\OneDrive - SAP SE\\Desktop\\Fiap\\6_Cubernets\\FIAP.IFOOD.PEDIDO.MICROSERVICO\\FIAP.IFOOD.PEDIDOS.DOMAIN\\FIAP.IFOOD.PEDIDOS.DOMAIN.csproj",
+        "projectName": "FIAP.IFOOD.PEDIDOS.DOMAIN",
+        "projectPath": "C:\\Users\\i830664\\OneDrive - SAP SE\\Desktop\\Fiap\\6_Cubernets\\FIAP.IFOOD.PEDIDO.MICROSERVICO\\FIAP.IFOOD.PEDIDOS.DOMAIN\\FIAP.IFOOD.PEDIDOS.DOMAIN.csproj",
+        "packagesPath": "C:\\Users\\i830664\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\i830664\\OneDrive - SAP SE\\Desktop\\Fiap\\6_Cubernets\\FIAP.IFOOD.PEDIDO.MICROSERVICO\\FIAP.IFOOD.PEDIDOS.DOMAIN\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\i830664\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\i830664\\OneDrive - SAP SE\\Desktop\\Fiap\\6_Cubernets\\FIAP.IFOOD.PEDIDO.MICROSERVICO\\FIAP.IFOOD.PEDIDOS.REPOSITORY\\FIAP.IFOOD.PEDIDOS.REPOSITORY.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\i830664\\OneDrive - SAP SE\\Desktop\\Fiap\\6_Cubernets\\FIAP.IFOOD.PEDIDO.MICROSERVICO\\FIAP.IFOOD.PEDIDOS.REPOSITORY\\FIAP.IFOOD.PEDIDOS.REPOSITORY.csproj",
+        "projectName": "FIAP.IFOOD.PEDIDOS.REPOSITORY",
+        "projectPath": "C:\\Users\\i830664\\OneDrive - SAP SE\\Desktop\\Fiap\\6_Cubernets\\FIAP.IFOOD.PEDIDO.MICROSERVICO\\FIAP.IFOOD.PEDIDOS.REPOSITORY\\FIAP.IFOOD.PEDIDOS.REPOSITORY.csproj",
+        "packagesPath": "C:\\Users\\i830664\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\i830664\\OneDrive - SAP SE\\Desktop\\Fiap\\6_Cubernets\\FIAP.IFOOD.PEDIDO.MICROSERVICO\\FIAP.IFOOD.PEDIDOS.REPOSITORY\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\i830664\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\i830664\\OneDrive - SAP SE\\Desktop\\Fiap\\6_Cubernets\\FIAP.IFOOD.PEDIDO.MICROSERVICO\\FIAP.IFOOD.PEDIDOS.DOMAIN\\FIAP.IFOOD.PEDIDOS.DOMAIN.csproj": {
+                "projectPath": "C:\\Users\\i830664\\OneDrive - SAP SE\\Desktop\\Fiap\\6_Cubernets\\FIAP.IFOOD.PEDIDO.MICROSERVICO\\FIAP.IFOOD.PEDIDOS.DOMAIN\\FIAP.IFOOD.PEDIDOS.DOMAIN.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

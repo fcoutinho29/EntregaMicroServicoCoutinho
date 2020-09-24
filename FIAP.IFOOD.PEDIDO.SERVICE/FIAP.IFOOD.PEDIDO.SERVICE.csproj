@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FIAP.IFOOD.PEDIDOS.DOMAIN\FIAP.IFOOD.PEDIDOS.DOMAIN.csproj" />
+    <ProjectReference Include="..\FIAP.IFOOD.PEDIDOS.REPOSITORY\FIAP.IFOOD.PEDIDOS.REPOSITORY.csproj" />
+  </ItemGroup>
+
+</Project>
